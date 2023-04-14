@@ -1,0 +1,9 @@
+theme: jekyll-theme-hacker
+markdown: GFM
+title: Golden Notes - armanexplorer planet
+description: A place to find the practical notes (mostly technically)
+
+collections:
+  jekyll:
+    output: true
+    permalink: /:collection/:name
