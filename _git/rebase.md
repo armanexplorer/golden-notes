@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Git Rebase
 description: An intro to git rebase and its best practices
 ---

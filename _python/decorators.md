@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Decorators
 description: How we can use decorators to check errors in function arguments
 ---

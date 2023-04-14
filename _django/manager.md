@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Manager
 description: An intro to Base Manager and its interesting attributes
 ---

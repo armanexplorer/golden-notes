@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Types
 description: Different ways of defining types in TypeScript
 ---
