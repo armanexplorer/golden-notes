@@ -4,9 +4,28 @@ title: Golden Notes - armanexplorer planet
 description: A place to find the practical notes (mostly technically)
 
 collections:
+
+  
   jekyll:
     output: true
     permalink: /:collection/:name
+    
+  msword:
+    output: true
+    permalink: /:collection/:name
+
+  django:
+    output: true
+    permalink: /:collection/:name
+
+  python:
+    output: true
+    permalink: /:collection/:name
+
+  typescript:
+    output: true
+    permalink: /:collection/:name
+
 
 defaults:
   # - scope:
