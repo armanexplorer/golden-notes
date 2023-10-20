@@ -1,44 +1,44 @@
 theme: jekyll-theme-hacker
+
+# default: kramdown
 markdown: GFM
+
 title: Golden Notes - armanexplorer planet
 description: A place to find the practical notes (mostly technically)
 
-collections:
 
-  
-  jekyll:
-    output: true
-    permalink: /:collection/:name
-    
-  msword:
-    output: true
-    permalink: /:collection/:name
-
-  django:
-    output: true
-    permalink: /:collection/:name
-
-  python:
-    output: true
-    permalink: /:collection/:name
-
-  typescript:
-    output: true
-    permalink: /:collection/:name
+exclude:
+  - "add-front-matter.sh"
+  - "update-cols.sh"
 
 
 defaults:
-  # - scope:
-  #     path: ""
-  #     type: "authors"
-  #   values:
-  #     layout: "author"
-  # - scope:
-  #     path: ""
-  #     type: "posts"
-  #   values:
-  #     layout: "post"
-  - scope:
-      path: ""
+  -
+    scope:
+      path: "_*"
     values:
-      layout: "default"
+      layout: default
+
+# NOTE: Don't add anything after the collections list (because of update cols script)
+collections:
+  jekyll:
+    output: true
+    permalink: /:collection/:name
+  msword:
+    output: true
+    permalink: /:collection/:name
+  django:
+    output: true
+    permalink: /:collection/:name
+  python:
+    output: true
+    permalink: /:collection/:name
+  typescript:
+    output: true
+    permalink: /:collection/:name
+  git:
+    output: true
+    permalink: /:collection/:name
+  concepts:
+    output: true
+    permalink: /:collection/:name

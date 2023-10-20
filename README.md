@@ -1,3 +1,6 @@
+---
+---
+
 # Golden Notes
 This is a place for packaging notes (mostly technical).
 
